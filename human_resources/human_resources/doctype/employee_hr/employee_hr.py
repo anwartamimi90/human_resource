@@ -5,4 +5,16 @@
 from frappe.model.document import Document
 
 class EmployeeHR(Document):
-	pass
+	def validate(self):
+		self.cv_valuation_()
+
+
+	def after_insert(self):
+		self.cv_valuation_()
+
+
+	def cv_valuation_(self):
+		if 'English' in self.cv:
+			self.cv_valuation = 'Good'
+		else:
+			self.cv_valuation = 'Bad'
