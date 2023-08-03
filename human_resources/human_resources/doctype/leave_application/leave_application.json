@@ -53,7 +53,8 @@
   {
    "fieldname": "leave_balance_before_application",
    "fieldtype": "Float",
-   "label": "Leave Balance Before Application"
+   "label": "Leave Balance Before Application",
+   "read_only": 1
   },
   {
    "fieldname": "from_date",
@@ -68,7 +69,8 @@
   {
    "fieldname": "total_leave_days",
    "fieldtype": "Float",
-   "label": "Total Leave Days"
+   "label": "Total Leave Days",
+   "read_only": 1
   },
   {
    "fieldname": "alternative_employee",
@@ -94,7 +96,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-08-03 00:44:12.172213",
+ "modified": "2023-08-03 17:27:14.661819",
  "modified_by": "Administrator",
  "module": "Human Resources",
  "name": "Leave Application",
