@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:LA-####",
+ "autoname": "format:LA-{#####}",
  "creation": "2023-08-03 00:40:51.726374",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -52,12 +52,13 @@
   {
    "fieldname": "total_leaves_allocated",
    "fieldtype": "Float",
-   "label": "Total Leaves Allocated"
+   "label": "Total Leaves Allocated",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-08-03 15:58:33.243424",
+ "modified": "2023-08-05 22:20:13.588198",
  "modified_by": "Administrator",
  "module": "Human Resources",
  "name": "Leave Allocation",

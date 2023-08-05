@@ -5,6 +5,7 @@
 from frappe.model.document import Document
 from frappe.utils import date_diff
 
+
 class LeaveAllocation(Document):
 
 	def validate(self):
@@ -16,4 +17,3 @@ class LeaveAllocation(Document):
 
 			if total_leaves_allocated >= 0:
 				self.total_leaves_allocated = total_leaves_allocated
-
